@@ -60,7 +60,7 @@ function App() {
         const lastResult = results[results.length - 1]
 
         if (lastResult && lastResult[1] && lastResult[0]) {
-            const [sourceImageUrl, storedBlob] = lastResult
+            const [_sourceImageUrl, storedBlob] = lastResult
 setGeneration(storedBlob as string)
 
         }
